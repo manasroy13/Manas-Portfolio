@@ -52,11 +52,11 @@ export default function Hero() {
           className="mb-8"
         >
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-[#00d9ff] to-[#0ea5e9] p-1 shadow-lg shadow-[#00d9ff]/50">
-            <div className="w-full h-full rounded-full bg-[#0a0a0a] flex items-center justify-center">
+            <div className="w-full h-full rounded-full bg-[#0a0a0a] flex items-center justify-center overflow-hidden">
               <img
-                src="https://api.dicebear.com/7.x/avataaars/svg?seed=ChaudharyManasRay"
+                src="https://ibb.co/LXqqNqs8"
                 alt="Chaudhary Manas Ray"
-                className="w-full h-full rounded-full"
+                className="w-full h-full object-cover rounded-full"
               />
             </div>
           </div>
