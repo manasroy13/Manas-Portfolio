@@ -54,9 +54,10 @@ export default function Hero() {
           <div className="w-40 h-40 mx-auto rounded-full bg-gradient-to-br from-[#00d9ff] to-[#0ea5e9] p-1 shadow-lg shadow-[#00d9ff]/50">
             <div className="w-full h-full rounded-full bg-[#0a0a0a] flex items-center justify-center overflow-hidden">
               <img
-                src="https://ibb.co/LXqqNqs8"
+                src="https://i.ibb.co/LXqqNqs8/profile.jpg"
                 alt="Chaudhary Manas Ray"
                 className="w-full h-full object-cover rounded-full"
+                onError={(e) => {e.currentTarget.src = 'https://api.dicebear.com/7.x/avataaars/svg?seed=ChaudharyManasRay'}}
               />
             </div>
           </div>
